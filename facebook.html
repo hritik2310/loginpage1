@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        body {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10%;
+        }
+
+        .fbimage {
+            height: 40px;
+        }
+
+       #loginbtn {
+            background-color: #4267B2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 40px;
+        
+            width: 336px;
+        }
+
+        #loginbtn:hover{
+            cursor: pointer;
+           
+            opacity: 0.5;
+        }
+        .form input {
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 40px;
+            padding: 0 16px;
+            width: 300px;
+            margin-bottom: 5px;
+            background-color: rgb(226, 221, 221);
+        }
+        .forget{
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .line{
+            color: rgb(93, 91, 91);
+        }
+        #new {
+            
+            border-radius: 4px;
+            font-size: 20px;
+            line-height: 30px;
+            
+            width: 220px;
+            
+        }
+        #new:hover{
+            cursor: pointer;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <img class="fbimage" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+        <form class="form">
+            <input type="text" placeholder="Mobile number or email address"><br>
+            <input type="password" placeholder="password"><br>
+            <button id="loginbtn">Log In?</button><br>
+        </form>
+        <a href="#" class="forget">Forgotten password?</a>
+        <p class="line">-----------------------------or-------------------------------</p>
+        <button id="new">Create new account</button><br>
+        
+    </div>
+</body>
+
+</html>
